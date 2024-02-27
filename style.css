@@ -1,0 +1,99 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerOne {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;    
+    display: grid;
+    place-items: center;
+}
+
+.itemsContainer {
+    width: min(42.8rem, 90%);
+    height: 27.5rem;
+    margin: auto;
+    background-color: white;
+    padding: 4.8rem 6.4rem;
+    text-align: center;
+    border-radius: .6rem;
+}
+
+.hide {
+    display: none;
+}
+
+.textContainer span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: rgba(52, 53, 91, 1);
+    margin-bottom: 1.6rem;
+
+}
+
+.textContainer p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+    color: rgba(52, 53, 91, 0.8);
+    margin-bottom: 4.8rem;
+}
+
+input, button {
+    border: none;
+    background: transparent;
+    padding: 1.6rem;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: rgba(220, 226, 233, 1);
+    width: 6.3rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button {
+    background-color: rgba(120, 121, 241, 1);
+    cursor: pointer;
+    border-radius: 0 .4rem .4rem 0;
+}
+
+/* RESULT SCREEN */
+
+.resultBox {
+    font-family: "DM Sans", sans-serif;
+    margin-top: 2.5rem;
+}
+
+
+.resultBox span {
+    font-size: 2.4rem;
+    display: block;
+}
+
+.resultBox button {
+    background-color: rgba(120, 121, 241, 1);
+    border-radius: .4rem;
+    padding: 1.6rem;
+    cursor: pointer;
+    margin-top: 3.5rem;
+    color: white;
+
+    transition: background 0.2s ease-in;
+}
+
+button:hover {
+    background-color: rgb(95, 95, 192);
+}
